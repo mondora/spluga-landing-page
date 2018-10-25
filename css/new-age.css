@@ -442,3 +442,24 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   height: auto;
   margin: 20px;
 }
+
+.form-submit-button {
+  outline: none;
+  cursor: pointer;
+  border-radius: 300px;
+  padding: 15px 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  background-color: #fff;
+  color: #bbe5ed;
+  border-color: #bbe5ed;
+  border: 1px solid;
+}
+
+.form-submit-button:hover {
+  background-color: #bbe5ed;
+  color: #fff;
+  border-color: #fff;
+}
