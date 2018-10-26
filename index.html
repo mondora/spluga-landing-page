@@ -188,21 +188,7 @@
         </div>
         <div class="col-lg-5 my-auto" style="align:center">
           <h4 style="padding-top: 30px; padding-left: 10px; padding-bottom: 2px"> Please sign up here:</h4>
-          <!--$('#emailform').value1-->
-          <script>
-            function submitEmail() {
-              $.ajax({
-                url: 'https://maker.ifttt.com/trigger/splugasubmit/with/key/cjgQ-CeVbnVyXUyvgj9Spn6XEA64pWOWiXAf1p_2uPT',
-                type: 'POST',
-                data: {value1: 'prova'},
-                success: function () {
-                  alert('done');
-                }
-              });
-              return false;
-            }
-          </script>
-          <form name='emailform' onsubmit='return submitEmail()'>
+          <form name='emailform' target="_blank" method="POST" action="https://maker.ifttt.com/trigger/start-saving-the-world/with/key/cjgQ-CeVbnVyXUyvgj9Spn6XEA64pWOWiXAf1p_2uPT">
             <input type="email" name="value1" placeholder="Email" style="width: 250px;">
             <br />
             <input type="submit" class="form-submit-button" value="Send" style="margin: 20px; box-align: center">
